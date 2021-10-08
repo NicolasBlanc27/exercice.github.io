@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding : 0;
+}
+
+h1 {
+  margin: 10vh;
+}
+
+body {
+  background-color:  #edf6f9;
+}
+
+span.diplome{
+  font-style: italic;
+
+}
+
+img{
+  max-width: 50%;
+  display: block;
+}
+
+.presentation{
+}
+
+.Formation, .Experiences, .Competences, .diplome{
+   margin-top: 10vh;
+   background-color : white;
+ }
+
+
+.left, .right{
+  position: relative;
+  display: block;
+  width: 50%;
+  float: left;
+  height: 50vh;
+  overflow: auto;
+}
+
+
+
+.left img{
+  margin: auto;
+  display: block;
+  border-radius: 50%;
